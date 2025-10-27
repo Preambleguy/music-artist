@@ -9,26 +9,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>John Burch Music</title>
+    <script src="https://kit.fontawesome.com/45084c80e8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="#hero"></a>Home</li>
-            <li><a href="#music"></a>Music</li>
-            <li><a href="#watch"></a>Video</li>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#music">Music</a></li>
+            <li><a href="#watch">Video</a></li>
         </ul>
+        <img src="images/john-burch-music-logo.png" alt="John Burch Music" class="logo">
     </nav>
-    <section id="hero">
-        <div class="hero-text">
-            John Burch<br>Pianist, Composer, &amp; Producer
-        </div>
-    </section>
-    <section id="music">
-
-    </section>
-    <section id="watch">
-        <iframe width="100%" src="https://www.youtube.com/embed/JzWLZA9mBZE?si=Rw6ERbPbpzgsXu86" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </section>
+    <main>
+        <section id="hero">
+            <h2 class="hero-text">
+                John Burch<br>Pianist, Composer, &amp; Producer
+            </h2>
+        </section>
+        <section id="music">
+            <h3>Music - Singles &amp; Albums</h3>
+            <div id="album1" class="music-card">
+                <div class="music-card-text">
+                    <i>Prophet</i> (2020) - Inspired by the music of Nujabes, <i>Prophet</i> is a lo-fi hip-hop instrumental album that tells the story of a man deserted on an island.
+                </div>
+                <a href="https://open.spotify.com/album/3uj7GR47XxdhBzzv689uF5?si=BSUE8WFqQuq6QBoQvBgx5Q" target="_blank">Spotify: <i class="fa-brands fa-spotify"></i></a>
+            </div>
+            <div id="album2" class="music-card">
+                <div class="music-card-text">
+                    <i>BBYGRL</i> (2023) - While <i>BBYGRL</i> started off as a silly voice memo, it became an earworm that just had to be fully produced into a single. This one features Ericka, my fianc&eacute;e, on the background vocals.
+                </div>
+                <a href="https://open.spotify.com/album/41C5oKFqfSmaKXD67tDIhl?si=P-plqtQ3R3m7gDzCM7xaUQ" target="_blank">Spotify: <i class="fa-brands fa-spotify"></i></a>
+            </div>
+            <div id="album3" class="music-card">
+                <div class="music-card-text">
+                    <i>Friday</i> (2022) - A dedication to my cats, Luna and Moira. <i>Friday</i> blends boom-bap hip-hop drums, retro chiptune sounds, jazz, and classical into one short-but-sweet album.
+                </div>
+                <a href="https://open.spotify.com/album/3x6kl7WWlmeP2tFZZBtCfh?si=HZLfxivGSJS-VtPn_Gub3w" target="_blank">Spotify: <i class="fa-brands fa-spotify"></i></a>                
+            </div>
+        </section>
+        <section id="watch">
+            <h3>YouTube Video</h3>
+            <div id="video-container">
+            <iframe src="https://www.youtube.com/embed/JzWLZA9mBZE?si=Rw6ERbPbpzgsXu86" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Email: <a href="mailto:johnburchmusic@icloud.com">johnburchmusic@icloud.com</a></p>
+        <p>Phone: <a href="tel:+1234567890">(123) 456-7890</a></p>
+        <p>John Burch Music &copy; 2025</p>
+    </footer>
 </body>
 </html>

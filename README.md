@@ -1,3 +1,3 @@
-Name: John Burch
-Project: Music Artist Site
+#Project: Music Artist Site
+##Name: John Burch
 Netlify URL: https://john-burch-music.netlify.app/
