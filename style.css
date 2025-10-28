@@ -75,41 +75,41 @@ h3 {
     justify-content: center;
     flex-wrap: wrap;
     position: relative;
+    /* border-bottom: 1rem solid black; */
 }
 
 .music-card {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 65vh;
+    background-color: rgb(204, 195, 189);
+    min-height: 65vh;
+    height: auto;
+    flex-direction: column;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-items: center;
     position: relative;
-    flex: 1 1 220px;
+    flex: 1 1 320px;
+    overflow: hidden;
+    border-bottom: 0.25rem solid black;
 }
 
-#album1 {
-    background-image: url(images/prophet-album-cover.png);
+.album-cover {
+    position: relative;
+    width: 100%;
 }
 
-#album2 {
-    background-image: url(images/bbygrl-single-cover.png);
-}
-
-#album3 {
-    background-image: url(images/friday-album-cover.png);
+.album-cover img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .music-card-text {
-    background-color: rgba(204, 195, 189, 0.8);
-    margin: 2rem;
-    padding: 0.5rem;
-    border-radius: 10px;
+    padding: 0.5rem 1rem;
     text-align: center;
+    margin: 0;
 }
 
-.music-card a {
+.album-cover a {
     background-color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
     color: darkgreen;
@@ -150,6 +150,7 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
+    overflow: hidden;
 }
 
 footer p {
